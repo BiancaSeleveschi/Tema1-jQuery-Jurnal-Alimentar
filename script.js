@@ -38,7 +38,6 @@ let products = [
 ]
 
 
-
 function displayProducts() {
   $("#products-tbody").text("")
   for (let i = 0; i < products.length; i++) {
